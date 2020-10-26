@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umraco-Udemy", "Umraco-Udemy\Umraco-Udemy.csproj", "{28D4729C-EC1B-40F7-B4C7-C912F353F623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco-Udemy.Core", "Umbraco-Udemy.Core\Umbraco-Udemy.Core.csproj", "{A53126F9-7DAC-4DF1-99B1-AC85644E72A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28D4729C-EC1B-40F7-B4C7-C912F353F623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D4729C-EC1B-40F7-B4C7-C912F353F623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D4729C-EC1B-40F7-B4C7-C912F353F623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D4729C-EC1B-40F7-B4C7-C912F353F623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53126F9-7DAC-4DF1-99B1-AC85644E72A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53126F9-7DAC-4DF1-99B1-AC85644E72A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53126F9-7DAC-4DF1-99B1-AC85644E72A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53126F9-7DAC-4DF1-99B1-AC85644E72A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4C75C88-B752-4EB4-BE96-1B24676E5D4A}
+	EndGlobalSection
+EndGlobal

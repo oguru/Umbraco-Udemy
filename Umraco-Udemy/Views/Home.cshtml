@@ -1,0 +1,22 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Home>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@using Umbraco.Core.PropertyEditors.ValueConverters;
+@{
+	Layout = "Main.cshtml";
+}
+
+<!-- Hero Image -->
+@Html.Partial("Hero")
+
+<!-- Call to Action -->
+@Html.Partial("Call To Action")
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+@*            @Html.Action("GetTweets", "Twitter", new { apiLink = "HDeveloped"})
+            @Umbraco.RenderMacro("GetLatestTweets", new {twitterHandle="HDeveloped"})*@
+        </div>
+    </div>
+</div>

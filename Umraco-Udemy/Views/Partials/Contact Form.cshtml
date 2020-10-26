@@ -1,0 +1,16 @@
+﻿@* model is the contact form view model*@
+@Model Umbraco-Udemy.Core.ViewModel.ContactFormViewModel
+@using Umbraco-Udemy.Core.Controllers
+@*Use html helper tag for umbraco to render the form - pass in surface controller (contactController) & name of controller action (HandleContactForm) *@
+@using (Html.BeginUmbracoForm<Umbraco_Udemy.Core.Controllers.ContactController>("HandleContactForm"))
+{
+    @Html.ValidationSummary()
+    @*Prevents people tampering with the page*@
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="your-name-textbox">Your name *</label>
+        <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control form-control-lg", placeholder = "Your Name", maxlength = "80" })
+    </div>
+}

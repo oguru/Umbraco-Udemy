@@ -1,0 +1,21 @@
+.home-hero {
+    background: no-repeat center center;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    color: black;
+}
+
+.home-hero > .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.home-hero > .inner {
+    position: relative;
+    z-index: 2;
+}
