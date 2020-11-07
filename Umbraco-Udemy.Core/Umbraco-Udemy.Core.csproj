@@ -260,6 +260,7 @@
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\EmailServices.cs" />
+    <Compile Include="Services\IMailService.cs" />
     <Compile Include="ViewModel\ContactFormViewModel.cs" />
     <Compile Include="ViewModel\RegisterViewModel.cs" />
   </ItemGroup>
